@@ -1,0 +1,130 @@
+@media only screen and (max-width: 412px) {
+.home{
+    width: 412px;
+    height:1700px;
+    background-color: #F294C8;
+}
+.home2{
+    width: 375px;
+    height:2000px;
+    background-color: #F294C8;
+}
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.home p{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.textContent1{
+    width: 90%;
+    margin: auto;
+
+}
+.textContent1 p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 0;
+    font-style:normal;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+.textContent2 p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 0;
+    font-style:normal;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.textContent2{
+    width: 300px;
+    margin: auto;
+}
+
+.video{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+.nextPage{
+    width: 90%;  
+    margin: auto;
+}
+.nextPage p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nextPage a{
+    font-size: 15px;
+    color: black;
+    margin-left: 96px;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 26px;
+    text-decoration: none;
+}
+
+.nextPage a:active{
+    background-color: rgb(194, 194, 194);
+}
+
+.home2 h1{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+.content1{
+    width: 90%;
+    margin: auto;
+}
+
+#lastTxt{
+    font-style: italic;
+}
+
+.music{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    height: 190px;
+}
+
+.minTxt{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 413px){
+    .content{
+        display:none;
+    }
+    .minTxt{
+        background-color: #F294C8;
+        width: 200px;
+        margin: auto;
+        height: 45px;
+        display: flex;
+        border-radius: 50px;
+       }
+    .minTxt p{
+        margin: auto;
+        justify-content: center;
+        color: white;
+        }
+        
+}

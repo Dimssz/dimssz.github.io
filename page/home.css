@@ -1,0 +1,542 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.alert1{
+    display: none;
+}
+.container{
+    width: 100%;
+    height: 9700px;
+    background-color: #96505B;
+}
+.headtext p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 53px;
+}
+
+
+.mySlides{
+    width: 330px;
+    height: 100%;
+    position: relative;
+}
+.firsttxt{
+    font-size: 92px;
+    width: 700px;
+    color: #092126;
+}
+.firstContent{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    height: 600px;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.firstBox{
+    width: 100%;
+    background-color:antiquewhite;
+}
+.firsttxt span{
+    color: #C15B78;
+}
+
+hr {
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    border-top: 10px dashed #324359;
+    width: 93%;
+  }
+
+
+.firstGif{
+    width: 80%;
+    margin: auto;
+}
+.myGif{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.musicBox{
+    width: 90%;
+    height: 500px;
+    display:flex ;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.music iframe{
+    width: 400px;
+    height: 352px;
+}
+
+.lirik{
+    font-size: 35px;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.box2{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+.oldImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+#textAwal{  
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+    color: rgb(251, 239, 218);
+}
+
+.box3{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#txtFav{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(251, 239, 218);
+    margin-top: 210px;
+}
+
+.favImage img{
+    width:100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+
+.box4{
+    width: 90%;
+    margin-top: 100px;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+
+}
+
+.box4 img{
+    margin: auto;
+    width: 500px;
+   height: 170px;
+}
+
+.box5{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: 400px;
+    border: 3px solid #092126;
+    margin-top: 30px;
+    border-radius: 70px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.specialMsg p{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(219, 219, 219);
+    letter-spacing: 1px;
+    width: 90%;
+    margin: auto;
+}
+
+
+.box6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.music2{
+    width: 70%;
+    margin: auto;
+}
+.music2 iframe{
+    width: 100%;
+    height: 200px
+}
+
+.firstColumn{
+   
+    width: 100%;
+}
+.firstImage{
+ display: grid;
+ width: 80%;
+ justify-content: space-around;
+  grid-template-columns:auto auto auto auto;
+  margin: auto;
+
+}
+.image2{
+    width: 100%;
+    height: 80%;
+}
+.box7{
+    display: flex;
+    width: 90%;
+    justify-self: right;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 90px;
+}
+.box7Img img{
+    width: 100%;
+    height: 100%;
+}
+.box7Img{
+    width: 33%;
+}
+
+.box7Card{
+    width: 65%;
+}
+.box7Txt{
+    font-size: 90px;
+    color: white;
+    margin-bottom: 30px;
+}
+.box7Status{
+    display: flex;
+    width: 108%;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+.box7Line{
+    width: 108%;
+    height: 30px;
+    background-color: #5BB0BA;
+}
+.box7Emot{
+    margin-top: 60px;
+    color:red;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+}
+
+.box8{
+    width: 90%;
+    height: 270px;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+.box8Main{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.box8Buttons{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: 40px;
+    color: #324359;
+}
+.box8Button{
+    background-color: #EBF5F7;
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.box8Res{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+.mySlides1 {
+    width: 100%;
+    display:none;
+    margin: auto;
+   text-align: center;
+
+}
+.w3-content{
+    margin: auto;
+}
+.mySlides1 img{
+    height: 100%;
+    width: 40%;
+    margin: auto;
+
+}
+
+.box9{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+}
+.buttonPhoto{
+    text-align: center;
+    
+}
+.buttonPhoto button{
+    font-size: 25px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.box10{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+}
+
+.box10Img img{
+    width: 100%;
+    height: 100%;
+}
+.box11{
+    width: 90%;
+    height: 200px;
+    margin-top: 100px;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+.box11 img{
+    margin: auto;
+    width: 100%;
+   height: 100%;
+}
+
+.box12{
+    width: 90%;
+    height: 710px;
+    margin: auto;
+    display: flex;
+    margin-top: 90px;
+}
+.box12Img img{
+    width: 100%;
+    height: 100%;
+    padding-right: 50px;
+}
+
+.box12Main{
+    width: 70%;
+    height: 100%;
+}
+
+.box12Jaw{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+.box12Jaw p{
+    font-size: 25px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+
+.button {
+    width: 120px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+.box13{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+}
+.box13Sub{
+    width: 100%;
+    text-align: center;
+}
+.box13Sub p{
+    width: fit-content;
+    padding: 10px 15px 10px 15px;
+    margin: auto;
+    font-size: 40px;
+    color: #343434;
+    background-color: #5BB0BA;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.box13Sub p:active{
+    background-color: #315e63;
+}
+.box13Score{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    color: white;
+    align-items: center;
+}
+.react p{
+    font-size: 70px;
+}
+.skor p{
+    font-size: 90px;
+}
+
+
+.input{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color: white;
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+    outline: none;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: 1;
+    color: white;
+}
+
+.alert {
+    width: 20%;
+    padding: 20px;
+    background-color: #498e96;
+    color: white;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+.salahPw{
+    margin-left: 20px;
+    color: rgb(255, 90, 90);
+    display: none;
+}
+.box14Sub{
+    margin-top: 20px;
+    width: 100%;
+}
+.box14Sub p{
+    width: fit-content;
+    margin: auto;
+    background-color: #EBF5F7;
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.box14Sub p:active{
+    background-color: #979797;
+}
+
+.box15{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    height: 400px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.video iframe{
+    width: 100%;
+    height: 400px;
+}
+
+.box15Txt{
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+
+.countdown{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    color: white;
+}
+
+.lastBox{
+    display: none;
+}

@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1370px){
+
+    .container{
+        height: 9200px;
+    }
+    .music iframe{
+        width: 380px;
+        height: 352px;
+    }
+    .lirik{
+        font-size: 28px;
+    }
+
+    .box2{
+        height: 390px;
+    }
+
+    .favImage img{
+        height: 390px;
+    }
+    #txtFav{
+        font-size: 23px;
+    }
+    #textAwal{
+        font-size: 23px;
+    }
+    .box4 img{ 
+        height: 150px;
+    }
+    .box4{
+        margin-top: 20px;
+    }
+    .specialMsg p{
+        font-size: 20px;
+    }
+    .box5{
+        width: 56%;
+    }
+
+    .box7Img img{
+        width: 90%;
+        height: 100%;
+    }
+
+    .box7Txt{
+        font-size: 70px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px){
+    .container{
+        display: none;
+    }
+    .alert1{
+        display: block;
+        color: black;
+    }
+}
