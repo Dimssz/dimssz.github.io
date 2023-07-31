@@ -239,7 +239,7 @@ input.addEventListener("keypress", function(event) {
 });
 
 
-var countDownDate = new Date("Jul 31, 2023 09:00:00").getTime();
+var countDownDate = new Date("Aug 05, 2023 09:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
